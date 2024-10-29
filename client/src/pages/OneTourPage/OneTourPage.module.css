@@ -1,0 +1,165 @@
+.content {
+  margin: 100px 0px;
+}
+
+.tourName {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.photoDescContainer {
+  display: flex;
+  width: 80vw;
+  align-self: center;
+  margin-left: 75px;
+}
+
+.photo {
+  width: 70vw;
+  height: 65vh;
+  margin-left: 20px;
+  border-radius: 5px;
+}
+.photo:hover {
+  scale: 1.003;
+}
+.itemBox {
+  display: flex;
+  justify-content: center;
+  max-width: 100vw;
+}
+
+.image {
+  width: 14.6vw;
+  margin: 0px 0px 33px 50px;
+  border-radius: 3px;
+}
+.image:hover {
+  scale: 1.03;
+}
+.tourDescH1 {
+  text-align: center;
+  font-size: 40px;
+  padding: 20px 0px;
+}
+
+.desc {
+  margin: 0px 10px 30px 60px;
+  padding-left: 30px;
+  width: 60vw;
+  height: 350px;
+  justify-content: space-between;
+}
+
+.mapContainer {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+}
+
+.mapContainer h1 {
+  font-size: 30px;
+}
+
+.author {
+  width: 300px;
+  height: 350px;
+  padding: 15px;
+  background-color: #e8e9e1;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  margin-left: 48px;
+}
+
+h3 {
+  margin-top: 10px;
+}
+
+h5 {
+  margin-top: 5px;
+  font-size: 12px;
+}
+.h3 {
+  margin: 10px;
+}
+
+.authorPhoto {
+  width: 80px;
+  height: 80px;
+}
+
+.btnColor {
+  background-color: rgb(93, 198, 93);
+  width: 330px;
+  color: white;
+  font-weight: 600;
+  margin-bottom: 20px;
+  height: 40px;
+}
+.button {
+  width: 300px;
+  margin: 10px;
+  border: 1px solid grey;
+}
+
+textarea {
+  border: 1px solid black;
+  border-radius: 20px;
+  width: 500px;
+}
+
+.commentContainer {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  border-radius: 30px;
+  width: 600px;
+  background-color: #e8e9e1;
+  padding: 10px;
+  margin: 20px 0px 20px 0px;
+}
+
+.reviewContainer {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  height: 620px;
+  padding: 20px;
+  overflow: scroll;
+  overflow-x: hidden;
+  scrollbar-width: thin;
+  scrollbar-color: #e8e9e1 #ffffff;
+}
+
+.fidBackContainer {
+  display: flex;
+  width: fit-content;
+}
+
+.buttonContainer {
+  margin-top: 50px;
+  width: 40vw;
+  padding-left: 120px;
+}
+
+.reviewBtn {
+  font-size: 12px;
+}
+
+.checkoutForm {
+  width: 350px;
+  height: 400px;
+  margin: 30px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  border-radius: 30px;
+  padding: 40px 20px 0px 20px;
+}
+
+.btnForm {
+  background-color: rgb(93, 198, 93);
+  color: white;
+  font-weight: 600;
+  width: 290px;
+  margin-left: 5px;
+  height: 35px;
+}

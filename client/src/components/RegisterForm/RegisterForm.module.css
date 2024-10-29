@@ -1,0 +1,55 @@
+.contentContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  border: solid 1px white;
+  border-radius: 20px;
+  margin-top: 200px;
+  align-items: center;
+  backdrop-filter: blur(10px);
+  color: white;
+  padding: 40px 0px;
+  min-height: 600px;
+  /* max-width: 650px; */
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.preview {
+  height: 150px;
+  width: 150px;
+  border-radius: 100%;
+  display: 'none';
+}
+
+label.label input[type='file'] {
+  position: absolute;
+  top: -1000px;
+}
+.label {
+  cursor: pointer;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  padding: 5px 15px;
+  margin: 5px;
+  background: #859c91;
+  display: inline-block;
+}
+.label:hover {
+  background: #5cbd95;
+}
+.label:active {
+  background: #9fa1a0;
+}
+.label:invalid + span {
+  color: #000000;
+}
+.label:valid + span {
+  color: #ffffff;
+}

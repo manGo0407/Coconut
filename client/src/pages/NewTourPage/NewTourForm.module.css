@@ -1,0 +1,9 @@
+.content {
+  margin-top: 65px;
+}
+.background {
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('../../../turistBag.jpeg');
+}

@@ -1,0 +1,89 @@
+/* YourComponent.module.css */
+/* styles.module.css */
+.content {
+    margin-top: 200px;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.formControl {
+    width: 100%;
+    /* width in percentage */
+    max-width: 500px;
+    /* maximum width */
+    background-color: #ffffff;
+    /* white background of the card */
+    border-radius: 8px;
+    /* border radius */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    /* shadow for a 3D effect */
+    padding: 40px;
+    /* padding inside the card */
+    display: flex;
+    flex-direction: column;
+    /* stack elements vertically */
+    gap: 20px;
+    /* space between form elements */
+    margin: auto;
+    /* centering the card */
+}
+
+.formControl h4 {
+    margin-bottom: 24px;
+    /* space below the title */
+    text-align: center;
+    /* center the title */
+}
+
+.formControl label,
+.formControl input,
+.formControl button {
+    display: block;
+    width: 100%;
+    /* full width for form elements */
+}
+
+.formControl label {
+    margin-bottom: 8px;
+}
+
+.formControl input {
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.formControl button {
+    background-color: #5f8ec1;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    padding: 12px;
+    cursor: pointer;
+    width: 200px;
+    margin: 10px auto;
+    transition: background-color 0.3s;
+}
+
+
+.formControl button:hover {
+    background-color: #0056b3;
+}
+
+.formControl .backButton {
+    background-color: #ffffff;
+    color: #007bff;
+    border: 1px solid #007bff;
+
+}
+
+.formBackground {
+    background: #918b8b;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+
+}

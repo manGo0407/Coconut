@@ -1,0 +1,14 @@
+.flex_container {
+    display: flex;
+    flex-wrap: wrap;
+    /* Позволяет элементам переноситься на новую строку */
+    justify-content: space-around;
+    /* Равномерное распределение элементов в строке с пространством между ними */
+    align-items: flex-start;
+    /* Выравнивание элементов по верхнему краю */
+}
+
+.all_orders {
+    margin: 10px;
+
+}

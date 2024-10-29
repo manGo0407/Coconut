@@ -1,0 +1,109 @@
+.shadow {
+    filter: brightness(95%);
+}
+
+.spinner {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 9999;
+}
+
+.sber_input {
+    width: 100%;
+    max-width: 400px;
+    /* Общая максимальная ширина для кнопки и поля ввода */
+    height: 50px;
+    /* Высота для удобства на мобильных */
+    display: block;
+    /* Блочное отображение для корректного выравнивания */
+    margin: 20px auto;
+    /* Авто-маржины для центровки */
+    font-size: 16px;
+    /* Размер шрифта */
+}
+
+.sber_input {
+    padding: 0 10px;
+    /* Отступы внутри поля ввода */
+    border-radius: 10px;
+    /* Скругление углов, как у кнопки */
+    border: 1px solid #e8f5e9;
+    /* Граница, подходящая под дизайн формы */
+    box-sizing: border-box;
+    /* Чтобы ширина включала в себя padding и border */
+}
+
+.sber_btn {
+    margin: 20px auto;
+    /* Авто-маржины для центровки */
+    width: 100%;
+    max-width: 150px;
+    padding: 0.5em 1em;
+    /* Подкорректированные отступы для кнопки */
+    text-decoration: none;
+    background: #43a047;
+    /* Корпоративный зелёный цвет Сбера */
+    color: #ffffff;
+    /* Белый цвет текста */
+    border: none;
+    /* Убраны рамки */
+    border-radius: 10px;
+    /* Больший радиус скругления */
+    transition: background 0.3s ease-in-out;
+    /* Плавное изменение фона */
+    cursor: pointer;
+}
+
+.sber_btn:hover {
+    background: #388e3c;
+    /* Немного темнее при наведении */
+}
+
+.sber_btn:active {
+    background: #33691e;
+    /* Ещё темнее при нажатии */
+}
+
+.sber_checkout_form {
+    max-width: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    /* Отступы для всей формы */
+    border: 1px solid #e8f5e9;
+    /* Светло-зелёная граница формы */
+    border-radius: 15px;
+    /* Скругление углов формы */
+    background: #e8f5e9;
+    /* Белый фон формы */
+}
+
+.price {
+    font-size: 18px;
+    /* Размер шрифта */
+    font-weight: 700;
+
+    font-family: Arial, sans-serif;
+    /* Тип шрифта */
+    color: #333;
+    /* Цвет текста, тёмный для лучшей читаемости */
+    margin-top: 20px;
+    margin-left: 220px;
+    /* Верхний отступ */
+    /* margin-bottom: 20px; */
+    /* Нижний отступ */
+    padding: 10px 15px;
+    /* Поля вокруг текста */
+    background-color: #f2f2f2;
+    /* Цвет фона */
+    border-radius: 5px;
+    /* Скругление углов для легкого визуального разграничения */
+    display: block;
+    /* Чтобы занимал всю доступную ширину */
+    text-align: center;
+    /* Центрирование текста */
+}

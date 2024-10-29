@@ -1,0 +1,9 @@
+.content {
+    margin: 100px 0px;
+}
+
+.Footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}

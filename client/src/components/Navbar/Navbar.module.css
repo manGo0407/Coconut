@@ -1,0 +1,70 @@
+/* Общие стили для навбара */
+
+/* body {
+    padding-top: 65px;
+} */
+
+.navbar {
+  overflow: hidden;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 65px;
+  z-index: 9;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.02),
+    rgba(255, 255, 255, 0)
+  );
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+}
+
+.navbar a button:hover {
+  transform: scale(1.3);
+}
+
+.navLink {
+  display: flex;
+  float: left;
+  height: 70%;
+  align-items: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  z-index: 15;
+  background: linear-gradient(rgba(40, 207, 232, 0.4), rgba(59, 165, 98, 0.9));
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+}
+
+.h3Navbar {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  border-radius: 15px;
+  margin: 0;
+  width: 140px;
+  height: 45.5px;
+  cursor: pointer;
+}
+
+.navLink:hover {
+  background-color: rgba(9, 80, 35, 0.7);
+  border: groove 2px black;
+  color: black;
+}
